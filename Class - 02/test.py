@@ -173,26 +173,38 @@ allow nesting
 """
 
 
-list1 = [1, 2, 3, 4]
+# list1 = [1, 2, 3, 4]
 
-print(list1[0])
-print(list1[1])
-print(list1[-3])
+# print(list1[0])
+# print(list1[1])
+# print(list1[-3])
 
-list1[0] = "niloy"
-print(list1[0])
+# list1[0] = "niloy"
+# print(list1[0])
 
 # set and list e eke sathe j kono variable rakha possible
 
-list2 = ["", 1, 2, 3.12, (0, "value", 1.0), True, [1,2,3,4]]
-print(list2)
+# list2 = ["", 1, 2, 3.12, (0, "value", 1.0), True, [1,2,3,4]]
+# print(list2)
 
 
-x = input("Enter some values:").split(" ")          #make input as list
+# x = input("Enter some values:").split(" ")          #make input as list
+# print(x)
+# print(type(x))
+
+
+# list1 = [1, 2, 3, 4]
+
+# list1.append("name")
+# print(list1)
+# list1.sort()
+# print(list1)
+# list1.sort(reverse=True)
+# print(list1)
+
+x = 4.4567
+print(f"{round(x, 3)}")
+
+x = 2
+x = x ** 3  #power
 print(x)
-print(type(x))
-
-
-
-
-
