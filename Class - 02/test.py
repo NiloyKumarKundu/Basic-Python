@@ -146,6 +146,53 @@ str1 = a
 
 # negative indexing in string
 str1 = "Hello World"
-print(str1[-1])
+# print(str1[-1])
+
+# print(str1[-5:-1])
+# print(str1[-5:])
+
+# print(str1[-len(str1):])
+
+
+# loop in string
+
+for x in str1:
+    print(f"{x}", end="")
+print()
+
+
+# list
+"""
+ordered
+mutable (changable)
+allow duplicates
+allow slicing
+has negative index
+[] means list
+allow nesting
+"""
+
+
+list1 = [1, 2, 3, 4]
+
+print(list1[0])
+print(list1[1])
+print(list1[-3])
+
+list1[0] = "niloy"
+print(list1[0])
+
+# set and list e eke sathe j kono variable rakha possible
+
+list2 = ["", 1, 2, 3.12, (0, "value", 1.0), True, [1,2,3,4]]
+print(list2)
+
+
+x = input("Enter some values:").split(" ")          #make input as list
+print(x)
+print(type(x))
+
+
+
 
 
