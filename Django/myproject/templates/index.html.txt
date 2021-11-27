@@ -1,0 +1,78 @@
+{% comment %} <h1>Input your text below:</h1> {% endcomment %}
+
+{% comment %} <form method="POST" action="counter">
+    {% csrf_token %} 
+    <textarea name="text" rows="25" cols="100"></textarea>
+    <br>
+    <input type="submit">
+</form> {% endcomment %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<h1>Hey, welcome to my project</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} 
+    Plan - A
+{% endcomment %}
+
+{% comment %} 
+    1. earning way
+    2. always using the app
+    3. weather 
+{% endcomment %}
+
+
+
+{% comment %} 
+    1. Soil Test (manually) 
+    2. Sojne Pata 
+    3. 
+{% endcomment %}
+
+
+
+{% comment %}
+    Data (Sojne Pata)
+{% endcomment %}
+
+
+{% comment %} 
+    Messenger option (post and comment)
+{% endcomment %}
+
+
+  
+{% comment %} 
+    Food Waste
+{% endcomment %}
+
+{% comment %} 
+    Restaurant
+    Biye Bari
+    Foundation
+ {% endcomment %}
+
+
+{% comment %} 
+    BioSomething (Arnisha idea using food)
+
+{% endcomment %}
+
+
+
